@@ -1,62 +1,29 @@
-Tarefa 7 - Bouncing Easy (Navegação, Percepção)
+Tarefa 6 - Bouncing Easy (Navegação)
 ===============================================
 
-Esta página pertence ao tópico de navegação e percepção, demonstrando como executar trajetórias que permitam pousar e decolar em cada landing pad.
+Objetivo: Takeoff,
+pousar e decolar de todas as bases,
+não visitar a mesma base 2 vezes,
+pousar na base inicial.
 
-Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho.
+Como o foco desta tarefa é a navegação, e não a percepção, você não precisará identificar os marcadores por visão computacional. 
+No entanto, deve considerar suas posições como fixas e definir o comportamento ideal a partir dessas informações.
 
-Mundo: "empty" com esses objetos estáticos.
+Use o mundo 3 do launch eletroquad:
 
-Obs: as poses de cada marcador estão sendo publicadas em tópicos ROS2. Use esses tópicos para achar a pose de cada um e calcular a rota.
+.. code-block:: bash
 
-```
-objects:
-  - model_name: "marker_1"
-    model_type: "circulo_azul"
-    object_bridges:
-      - "pose"
-    xyz:
-      - 0.7
-      - 0.0
-      - 0.01
-  - model_name: "marker_2"
-    model_type: "cruz_rosa"
-    object_bridges:
-      - "pose"
-    xyz:
-      - -1.38
-      - 1.15
-      - 0.01
-  - model_name: "marker_3"
-    model_type: "estrela_verde"
-    object_bridges:
-      - "pose"
-    xyz:
-      - 2.19
-      - -1.72
-      - 0.01
-  - model_name: "marker_4"
-    model_type: "hexagono_vermelho"
-    object_bridges:
-      - "pose"
-    xyz:
-      - 2.88
-      - -0.2
-      - 0.01
-  - model_name: "marker_5"
-    model_type: "pentagono_marrom"
-    object_bridges:
-      - "pose"
-    xyz:
-      - -1.6
-      - -0.9
-      - 0.01
-  - model_name: "marker_6"
-    model_type: "triangulo_azul"
-    object_bridges:
-      - "pose"
-    xyz:
-      - 1.0
-      - -1.6
-      - 0.01
-```
+   . launch_eletroquad_as2.bash -3
+
+Além disso, delete momentaneamente a linha que randomiza as posições dos objetos no mundo em /tmuxinator/aerostack2_eletroquad.yaml:
+
+.. image:: images/comment.png
+   :align: center
+
+.. note::
+
+  Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho. Nomeie o arquivo como `mission_bouncing_easy.py`
+
+Mundo: "grass" com as adições de modelos gerados por randomize_eletroquad.py.
+
+Comportamento esperado:

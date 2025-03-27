@@ -1,4 +1,4 @@
-Tarefa 8 - Treinamento com apenas um objeto (IA)
+Tarefa 7 - Treinamento com apenas um objeto (IA)
 =================================================
 
 Esta página pertence ao tópico de inteligência artificial, demonstrando como treinar uma rede neural para reconhecer um marcador específico.

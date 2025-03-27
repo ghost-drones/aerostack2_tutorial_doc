@@ -1,62 +1,39 @@
 Tarefa 4 - Slalom (Navegação)
 =============================
 
-Esta página pertence ao tópico de navegação, demonstrando a tarefa de encontrar uma curva que passe por 5 cones e pousar no landing pad final. O seu drone não deve ultrapassar a altitude de 2.5 metros (altura dos cones).
-Além disso, o drone deve passar pelos cones pelas direções, em ordem:
+Objetivo: Takeoff 2 metros,
+transitar alternadamente entre uma sequência de 4 traves,
+pousar após passar por todas as traves.
 
+Considere que você deverá passar pelas traves seguindo esses lados:
 - Esquerda
 - Direita
 - Esquerda
 - Esquerda
-- Direita
 
-Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho.
+Como o foco desta tarefa é a navegação, e não a percepção, você não precisará identificar as traves por visão computacional. 
+No entanto, deve considerar suas posições como fixas e calcular a trajetória ideal com base nisso.
 
-Mundo: "empty" com esses objetos estáticos:
+Use o mundo 1 do launch eletroquad:
 
-```
-objects:
-  - model_name: "base_inicial"
-    model_type: "circulo_azul"
-    xyz:
-      - 0.0
-      - 0.0
-      - 0.01
-  - model_name: "barra_1"
-    model_type: "barra_azul"
-    xyz:
-      - 2.0
-      - 0.0
-      - 0.0
-  - model_name: "barra_2"
-    model_type: "barra_preto_fosco"
-    xyz:
-      - 4.0
-      - -1.2
-      - 0.0
-  - model_name: "barra_3"
-    model_type: "barra_azul"
-    xyz:
-      - 6.0
-      - 1.1
-      - 0.0
-  - model_name: "barra_4"
-    model_type: "barra_rosa"
-    xyz:
-      - 8.0
-      - 2.7
-      - 0.0
-  - model_name: "barra_5"
-    model_type: "barra_vermelha"
-    xyz:
-      - 10.0
-      - -0.1
-      - 0.0
-  - model_name: "base_final"
-    model_type: "cruz_rosa"
-    xyz:
-      - 12.0
-      - -3.0
-      - 0.01
-```
+.. code-block:: bash
+
+   . launch_eletroquad_as2.bash -1
+
+Além disso, delete momentaneamente a linha que randomiza as posições dos objetos no mundo em /tmuxinator/aerostack2_eletroquad.yaml:
+
+.. image:: images/comment.png
+   :align: center
+
+.. note::
+
+  Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho. 
+  Nomeie o arquivo como `mission_slalom.py`.
+
+  NÃO use waypoints comuns para a trajetória. Gere uma curva ideal e transite por ela.
+
+  Você deve usar o `Generate Polynomial Trajectory Behaviour <https://aerostack2.github.io/_04_robot_behaviors/index.html>`_ para resolver essa tarefa.
+
+Mundo: "grass" com as adições de modelos gerados por randomize_eletroquad.py.
+
 Comportamento esperado:

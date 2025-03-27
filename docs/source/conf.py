@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Aerostack2 Tutorial'
+copyright = '2025, Lucca'
+author = 'Lucca'
 
 release = '0.1'
 version = '0.1.0'

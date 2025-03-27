@@ -1,9 +1,17 @@
 Tarefa 2 - Waypoint Simples (Navegação)
 =======================================
 
-Esta página pertence ao tópico de navegação, demonstrando a tarefa de voar, deslocar-se 2 metros com *facing goal*, deslocar-se 2 metros *not facing goal* e pousar.
+Objetivo: Takeoff 3 metros, 
+deslocar-se 2m para frente `facing goal`, 
+deslocar-se  2m para a direita `not facing goal`, 
+deslocar-se 2m para a direita `facing goal`, 
+deslocar-se 2m para a direita `not facing goal`, 
+pousar.
 
-Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho.
+.. note::
+  
+  Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho.
+  Nomeie o arquivo como `mission_waypoint.py`.
 
 Mundo: "empty"
 

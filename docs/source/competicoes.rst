@@ -6,6 +6,6 @@ Esta seção contém as competições do projeto, envolvendo desafios de drone r
 .. toctree::
    :maxdepth: 1
 
-   competicao_drone_racing
+   competicao_slalom
+   competicao_hang_the_hook
    competicao_bouncing
-   competicao_tiro_ao_alvo

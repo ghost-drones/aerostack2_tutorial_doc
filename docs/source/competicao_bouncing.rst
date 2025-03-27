@@ -1,6 +1,7 @@
-Competição 2 - Bouncing
+Competição 3 - Bouncing
 =======================
 
-Esta página pertence ao tópico de competições, demonstrando os desafios envolvendo o reconhecimento de marcadores e landing pads com rede neural, com pouso e decolagem rápida.
+Objetivo:
 
-Conteúdo básico: Estratégias para integração de percepção e navegação em tempo real.
+.. image:: images/bouncing.png
+   :align: center

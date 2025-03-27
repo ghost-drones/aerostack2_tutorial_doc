@@ -1,11 +1,13 @@
 Tarefa 1 - Voo e Pouso (Navegação)
 ==================================
 
-Esta página pertence ao tópico de navegação, demonstrando a tarefa de voar, deslocar-se 2 metros para frente e pousar.
+Objetivo: Takeoff 3 metros, deslocar-se 2m para frente e pousar.
 
-Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho.
+.. note::
 
-Mundo: "empty"
+  Utilize os exemplos presentes em `/examples` como inspiração para seu trabalho. 
+  Nomeie o arquivo como `mission_voo_pouso.py`.
 
 Comportamento esperado:
 
+INSERIR VÍDEO
