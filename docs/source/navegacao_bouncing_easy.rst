@@ -9,7 +9,7 @@ pousar na base inicial.
 Como o foco desta tarefa é a navegação, e não a percepção, você não precisará identificar os marcadores por visão computacional. 
 No entanto, deve considerar suas posições como fixas e definir o comportamento ideal a partir dessas informações.
 
-Use o mundo 3 do launch eletroquad:
+Use a configuração 3 de mundo eletroquad:
 
 .. code-block:: bash
 

@@ -14,7 +14,7 @@ Considere que você deverá passar pelas traves seguindo esses lados:
 Como o foco desta tarefa é a navegação, e não a percepção, você não precisará identificar as traves por visão computacional. 
 No entanto, deve considerar suas posições como fixas e calcular a trajetória ideal com base nisso.
 
-Use o mundo 1 do launch eletroquad:
+Use a configuração 1 de mundo eletroquad:
 
 .. code-block:: bash
 

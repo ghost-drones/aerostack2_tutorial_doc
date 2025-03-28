@@ -193,6 +193,29 @@ Outros Comandos Úteis
 
 Se o container for removido, você sempre pode recriá-lo do zero executando o script `first_run.sh` novamente.
 
----
-
 Com essa configuração, seu ambiente estará pronto para rodar simulações do Aerostack2 utilizando Docker.
+
+VS Code - Utils
+---------------------
+
+Instale a extensão `Dev Containers <https://code.visualstudio.com/docs/devcontainers/containers>`_ no VS Code para
+que a experiência de desenvolvimento dentro do Docker seja melhor.
+
+.. image:: images/dev_container.png
+   :width: 400px
+   :align: center
+
+Além disso, você pode filtrar tipos de arquivos para "limpar" seu VS Code. Recomendo
+fortemente retirar os dotfiles. Para fazer isso, siga os passos abaixo:
+
+1 - Aperte com o botão direito do mouse na aba que ficam seus arquivos e selecione "Open Folder Settings".
+
+.. image:: images/botao_direito.png
+   :width: 300px
+   :align: center
+
+2 - Procure por "Files: Exclude" e adicione qualquer padrão de arquivos que quiser. Para remover os dotfiles, coloque `**/.*`
+
+.. image:: images/exclude_dotfiles.png
+   :width: 500px
+   :align: center

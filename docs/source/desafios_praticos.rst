@@ -12,5 +12,4 @@ Esta seção apresenta os desafios práticos do projeto, abrangendo tarefas de n
    navegacao_slalom
    percepcao_aruco_pose
    navegacao_bouncing_easy
-   ia_treinamento_um_objeto
-   ia_treinamento_varios_objetos
+   ia_treinamento_marcadores
